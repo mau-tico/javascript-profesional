@@ -30,13 +30,13 @@ class AutoPause {
     }
 
     handleVisibilityChange() {
-       const isVisible = document.visibilityState == 'visible';
-       
-       if (isVisible) {
+        const isVisible = document.visibilityState == 'visible';
+
+        if (isVisible) {
             this.player.play();
-       } else {
+        } else {
             this.player.pause();
-       }
+        }
     }
 };
 
